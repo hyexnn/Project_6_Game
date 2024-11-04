@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: ad893585b917f35498a9feda8a8f137c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bulletObjA: {instanceID: 0}
+  - bulletObjB: {instanceID: 0}
+  - bulletObjC: {instanceID: 0}
+  - bulletBoss: {instanceID: 0}
+  - itemCoin: {instanceID: 0}
+  - itemPower: {instanceID: 0}
+  - itemBoom: {instanceID: 0}
+  - player: {instanceID: 0}
+  - objectManager: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
