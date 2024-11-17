@@ -648,7 +648,7 @@ GameObject:
   - component: {fileID: 566670065}
   - component: {fileID: 566670070}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1374,9 +1374,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1576026052}
   - component: {fileID: 1576026051}
-  - component: {fileID: 1576026055}
-  - component: {fileID: 1576026054}
-  - component: {fileID: 1576026053}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1421,50 +1418,6 @@ Transform:
   - {fileID: 740587866}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 180, y: 90, z: -90}
---- !u!114 &1576026053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576026050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0eb238e0f9eb85846a99410f343b7822, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet_prefab: {fileID: 0}
-  spawn_rate_min: 0.5
-  spawn_rate_max: 3
-  target: {fileID: 566670069}
-  spawn_rate: 0
---- !u!114 &1576026054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576026050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96d4fb8e0098d4e4d85cb43b73799175, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 8
---- !u!114 &1576026055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576026050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4aa9a62d26397a4685bceaa0c67e470, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerRigidbody: {fileID: 0}
-  speed: 8
 --- !u!1 &2100669047
 GameObject:
   m_ObjectHideFlags: 0
