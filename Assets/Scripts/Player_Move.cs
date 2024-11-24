@@ -16,13 +16,16 @@ public class Player_Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Get input for horizontal (X-axis) and vertical (Y-axis)
         float xInput = Input.GetAxis("Horizontal");
-        float xSpeed = xInput * speed;
-        
+        float yInput = Input.GetAxis("Vertical"); // Use Vertical for Y-axis movement
 
-        Vector3 newVelocity = new Vector3(xSpeed, 0f);
+        // Calculate velocity based on input
+        float xSpeed = xInput * speed;
+        float ySpeed = yInput * speed;
+
+        // Set the new velocity for the Rigidbody
+        Vector3 newVelocity = new Vector3(xSpeed, ySpeed, 0f);
         playerRigidbody.velocity = newVelocity;
     }
-
-    
 }
